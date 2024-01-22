@@ -2,6 +2,11 @@ body{
   background-color: #ffffff;
   font-family: Arial;
 }
+@media screen and (max-width: 768px) {
+  body {
+    touch-action: pan-x pan-y;
+  }
+}
 form{
   background-color: #edf1f5;
   width: 90%;max-width: 600px;
